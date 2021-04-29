@@ -1,53 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
 
 :root {
-	--comfortaa: 'Comfortaa', cursive;
-	--redressed: 'Redressed', cursive;
+  --comfortaa: "Comfortaa", cursive;
+  --redressed: "Redressed", cursive;
 }
 
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	height: 100vh;
-	width: 100%;
-	background: #1c1c1c;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
-	font-size: 2.4rem;
-	color: #c4c4c4;
-	font-family: var(--comfortaa);
+  font-size: 3rem;
+  color: #c4c4c4;
+  font-family: var(--comfortaa);
 }
 
 .text .typed-text {
-	font-family: var(--redressed);
-	color: #008080;
+  font-family: var(--redressed);
+  color: #008080;
 }
 
 .text .cursor {
-	display: inline-block;
-	width: 3px;
-	margin-left: 4px;
-	background: #008080;
+  display: inline-block;
+  width: 3px;
+  margin-left: 4px;
+  background: #008080;
 }
 
 .text .cursor.blink {
-	animation: blink 0.8s infinite ease-in-out;
+  animation: blink 0.8s infinite ease-in-out;
 }
 
 @keyframes blink {
-	0%, 100% {
-		background: #008080;
-	}
-	40%, 50% {
-		background: transparent;
-	}
+  0%,
+  100% {
+    background: #008080;
+  }
+  40%,
+  50% {
+    background: transparent;
+  }
 }
