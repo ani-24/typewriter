@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
 
 :root {
-  --comfortaa: "Comfortaa", cursive;
+  --poppins: "Poppins", sans-serif;
   --redressed: "Redressed", cursive;
 }
 
@@ -24,7 +24,7 @@ body {
 .text {
   font-size: 3rem;
   color: #c4c4c4;
-  font-family: var(--comfortaa);
+  font-family: var(--poppins);
 }
 
 .text .typed-text {
